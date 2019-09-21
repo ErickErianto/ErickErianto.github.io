@@ -8,25 +8,33 @@
 	<title>Jasa - Ayam Komputer</title>
 	<meta type="description" content="Halaman ini berisi Jasa - Ayam Komputer">
 	<!-- End Title-->
+
+	<!-- Start CSS -->
+	<link rel="stylesheet" href="style/style.css">
+	<!-- End CSS -->
+
 </head>
 <body>
 	<!-- Start Logo-->
-	<img src="images/Logo-ayam-komputer.jpg" alt="Logo Ayam Komputer" width="300">
+	<div class="container logo">
+		<img src="images/Logo-ayam-komputer.jpg" alt="Logo Ayam Komputer" width="1150" height="200">
+	</div>
 	<!-- End Logo-->
-	
+		
 	<!-- Start Menu Primer-->
+	<div class="container menu-primer">
 	<ul>
 		<li>
 			<a href="index.html" title="Home">Home</a>
 		</li>
 		<li>
-			<a href="tentang.html" title="Profil">Profil</a>
+			<a href="profil.html" title="Profil">Profil</a>
 		</li>
 		<li>
 			<a href="katalog.html" title="Katalog">Katalog</a>
 		</li>
 		<li>
-			<a href="jasa.html" title="Jasa">Jasa</a>
+			<a href="jasa.html" title="Jasa" class="active">Jasa</a>
 		</li>
 		<li>
 			<a href="pembayaran.html" title="Cara Pembayaran">Cara Pembayaran</a>
@@ -35,15 +43,28 @@
 			<a href="kontak.html" title="Kontak Kami">Kontak Kami</a>
 		</li>
 	</ul>
+	</div>
 	<!-- Start Menu Primer -->
 
 	<!-- Start Jumbotron -->
+	<div class="container jumbotron">
 	<h1>Jasa di Ayam Komputer</h1>
-	<h3>Ayam Komputer adalah toko yang menjual aksesoris Komputer, hardware dan alat tulis kantor (ATK) serta menyediakan jasa service, design dan pengetikan</h3>
+	<h3>Ayam Komputer menyediakan layanan yang terjangkau dan berkualitas</h3>
+	</div>
 	<!-- Start Jumbotron -->
 
 	<!-- Start Jasa -->
-	<table border="1">
+	<div class="container">
+	<div class="box-heading">
+		<h4>
+			<a href="index.html">
+				Home
+			</a> > 
+			Layanan Jasa
+		</h4>
+	</div>
+	<div class="box-isi">
+	<table border="1" cellpadding="10" class="layanan-table">
 		<thead>
 			<tr>
 				<th>Jasa</th>
@@ -91,21 +112,28 @@
 				</tr>
 				<tr>
 					<th></th>
-					<th ><a href="kontak.html">Beli Paket Ini</a></th>
-					<th ><a href="kontak.html">Beli Paket Ini</a></th>
-					<th ><a href="kontak.html">Beli Paket Ini</a></th>
-					<th ><a href="kontak.html">Beli Paket Ini</a></th>
-					<th ><a href="kontak.html">Beli Paket Ini</a></th>
+					<th ><a href="kontak.html" class="button">Beli Paket Ini</a></th>
+					<th ><a href="kontak.html" class="button">Beli Paket Ini</a></th>
+					<th ><a href="kontak.html" class="button">Beli Paket Ini</a></th>
+					<th ><a href="kontak.html" class="button">Beli Paket Ini</a></th>
+					<th ><a href="kontak.html" class="button">Beli Paket Ini</a></th>
 				</tr>
 		</tfoot>
 	</table>
+	</div>
+	</div>
 	<!-- End Jasa -->
 
 	<!-- Start Menu Skunder -->
-	<h4>Informasi</h4>
-	<ul>
+	<div class="container-full menu-skunder">
+	<div class="container">
+		
+	<!-- Start Informasi -->
+	<div class="menu-sekunder-one">
+		<h4>Informasi</h4>
+		<ul>
 			<li>
-				<a href="#" title="Jasa">Jasa</a>
+				<a href="jasa.html" title="Jasa">Jasa</a>
 			</li>
 			<li>
 				<a href="#" title="Garansi & Pengembalian">Garansi & Pengembalian</a>
@@ -114,30 +142,64 @@
 				<a href="#" title="Testimonial">Testimonial</a>
 			</li>
 			<li>
-				<a href="#" title="Outlet Kami">Outlet Kami</a>
+				<a href="profil.html" title="Outlet Kami">Outlet Kami</a>
 			</li>
 			<li>
 				<a href="#" title="Lowongan Kerja">Lowongan Kerja</a>
 			</li>
 			<li>
-				<a href="#" title="Kontak Kami">Kontak Kami</a>
+				<a href="kontak.html" title="Kontak Kami">Kontak Kami</a>
 			</li>
 		</ul>
-	<h4>Hubungi Kami</h4>
-	<p>Telepon : (021)29622949 - Jam Kerja</p>
-	<p>SMS/WA : 086999081879</p>
-	<p>Email : cs@ayamkomputer.com</p>
+	</div>
+	<!-- End Informasi -->
+
+	
+	<!-- Start Hubungi Kami -->
+	<div class="menu-sekunder-two">
+		<h4>Hubungi Kami</h4>
+		<p>Telepon : (021)29622949 - Jam Kerja</p>
+		<p>SMS/WA : 086999081879</p>
+		<p>Email : cs@ayamkomputer.com</p>
 		<a href="https://facebook.com/" title="Facebook - Ayam Komputer">
-			<img src="images/logo-facebook.png" alt="Logo Facebook" width="50">
+			<img src="images/logo-facebook.png" alt="Logo Facebook" width="25">
 		</a>
 		<a href="https://instagram.com/" title="Instagram - Ayam Komputer">
-			<img src="images/logo-instagram.png" alt="Logo Instagram" width="50">
+			<img src="images/logo-instagram.png" alt="Logo Instagram" width="25">
 		</a>
 		<a href="https://twitter.com/" title="Twitter - Ayam Komputer">
-			<img src="images/logo-twitter.png" alt="Logo Twitter" width="50">
+			<img src="images/logo-twitter.png" alt="Logo Twitter" width="25">
 		</a>
-	<h4>Ayam Komputer</h4>
-	<p>Ayam Komputer adalah toko yang menjual aksesoris Komputer, hardware dan alat tulis kantor (ATK) serta menyediakan jasa service, design dan pengetikan.</p>
+		<a href="https://youtube.com/" title="Youtube - Ayam Komputer">
+			<img src="images/logo-youtube.png" alt="Logo Youtube" width="25">
+		</a>
+		<a href="https://gmail.com/" title="Gmail - Ayam Komputer">
+			<img src="images/logo-gmail.png" alt="Logo Gmail" width="25">
+		</a>
+		<a href="https://github.com/" title="Github - Ayam Komputer">
+			<img src="images/logo-github.png" alt="Logo Github" width="25">
+		</a>
+	</div>
+	<!-- End Hubungi Kami -->
+	
+	<!-- Start Ayam Komputer -->
+	<div class="menu-sekunder-three">
+		<h4>Ayam Komputer</h4>
+		<p>Ayam Komputer adalah toko yang menjual aksesoris <br>
+				Komputer, hardware dan alat tulis kantor (ATK) serta <br>
+				menyediakan jasa service, design dan pengetikan.</p>
+	</div>
+	<!-- End Ayam Komputer -->
+	</div>
+	</div>
 	<!-- End Menu Skunder -->
+
+	<!-- Start Copyright -->
+	<div class="container copyright">
+		<p>
+			Copyright &copy; 2019
+		</p>
+	</div>
+	<!-- End Copyright -->
 </body>
 </html>
