@@ -4,7 +4,7 @@
 
 /* Start Body */
 body {
-    background-color: black;
+    background-color: skyblue;
     color: black;
     font-family:  Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -41,6 +41,10 @@ body {
 /* Start Logo */
 .logo {
     text-align: center;
+    background-color: rgb(129, 172, 250);
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;  
 }
 /* Start Logo */
 
@@ -59,12 +63,16 @@ a:active {
 
 /* Start Menu Primer */
 .menu-primer ul {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;   
+    text-align: center;
     background-color: rgb(35, 72, 141);
     border-radius: 4px;
     box-shadow: 
         0 3px 5px -1px rgba(47, 160, 180, 0.712),
-        0 6px 10px 0 rgba(42, 166, 197, 0.719),
-        0 1px 18px 0 rgba(50, 187, 130, 0.705);
+        0 6px 10px 0 rgba(42, 135, 197, 0.719),
+        0 1px 18px 0 rgba(57, 128, 185, 0.705);
  }
 
 .menu-primer li {
@@ -132,7 +140,7 @@ a:active {
 /* Start Box */
 .box-heading {
     background-color: rgb(78, 120, 197);
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 3px 3px 0 0;
     margin: 0;
     padding: 10px 20px;
