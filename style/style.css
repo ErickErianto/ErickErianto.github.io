@@ -4,7 +4,6 @@
 
 /* Start Body */
 body {
-    background-color: skyblue;
     color: black;
     font-family:  Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -41,8 +40,7 @@ body {
 /* Start Logo */
 .logo {
     text-align: center;
-    background-color: rgb(129, 172, 250);
-    margin: 10px auto;
+    margin: 5px auto;
     overflow: auto;
     width: 100%;  
 }
